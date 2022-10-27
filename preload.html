@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER/SIGN IN</title>
+</head>
+<body>
+     <p class="head">
+        <p class="logo"><span>BUZZ</span>-MAX</p>
+     </p>
+     <div class="rotate">
+        <div class="rot"></div>
+     </div>
+  
+     <div class="fly">
+        <form action="index.html">
+        <button>PROCEED</button>
+     </form>
+     </div>
+</body>
+ <style>
+    body{
+        background: black;
+    }
+    .head{
+        display: flex;
+        margin: 9em;
+    }
+    .logo{
+        text-align: center;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        animation: 3s 1 card;
+        visibility: visible;
+    }
+    span{
+        color: hotpink
+    }
+    @keyframes card{
+        0%{
+            visibility: ;
+            transform: scale(1.1);
+        }
+        20%{
+          
+        }
+    }
+    .rot{
+        width: 40px;
+        height: 40px;
+        border: 2px solid white;
+        border-radius: 9px;
+        visibility: hidden;
+        animation: rot 4s 1;
+    }
+    .rotate{
+        display: flex;
+        justify-content: center;
+    }
+    @keyframes rot{
+        0%{
+            visibility: visible;
+        }
+        20%{
+            transform: rotate(200deg);
+        }
+    }
+    button{
+        width: 120px;
+        height: 35px;
+        color: white;
+        background: hotpink;
+        border-radius: 5px;
+        margin-top: em;
+        animation: 9s but 1;
+    }
+    .fly{
+        display: flex;
+        justify-content: center;
+    }
+    @keyframes but{
+        0%{
+            visibility: hidden;
+        }
+        20%{
+            visibility: hidden;
+        }
+        30%{
+            visibility: hidden;
+        }
+        40%{
+            visibility: hidden;
+        }
+        50%{
+            visibility: hidden;
+        }
+        70%{
+            visibility: visible;
+        }
+    }
+ </style>
+</html>
